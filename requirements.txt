@@ -1,5 +1,4 @@
-python-3.9
+python-dotenv
 streamlit
 openai
 base58
-random
