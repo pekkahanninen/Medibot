@@ -73,7 +73,7 @@ def generate_questions():
 ### **Lyhyen vastauksen kysymysten lisävaatimukset:**  
         "Vaadi kliinistä päättelyä ja syy-seuraussuhteiden ymmärtämistä. Keskity kysymyksissä alan ydinsisältöihin." 
         "Esitä vastaukseen vaadittavat taustatiedot kysymyksessä, älä odota esimerkiksi röntgenkuvien lisätarkastelua" 
-
+        "Ole tarkka suomen kielen lääketieteellisessä terminologiassa sekä hyvässä kieliasussa. Käytä selkeää ja luonnollista suomen kieltä. Käytä aina eurooppalaisia mittayksiköitä (esim. kg, mmol/l, °C) ja vältä amerikkalaisia yksiköitä tai vieraskielisiä termejä."
         "Muotoile vastaus näin:\n\n"
         "1. Kysymys: [Kirjoita kysymysteksti tähän]\n"
         "   A) [Vaihtoehto 1]\n"
@@ -163,7 +163,7 @@ if st.button("✅ Tarkista vastaukset") and not st.session_state.submitted:
     for i in range(2):
         review_prompt += f"**Sanallinen kysymys {i + 1}:** {st.session_state.short_answer_questions[i]}\n"
         review_prompt += f"📌 Opiskelijan vastaus: {st.session_state.short_answer_responses.get(f'short_answer_{i}', 'Ei vastattu')}\n"
-        review_prompt += "Pisteytä asteikolla 0–3, jos vastaus on tyhjä anna 0 pistettä, jos vastaus on osittain oikein anna 1-2 pistettä ja täysin oikeasta 3 pistettä. Ilmoita selvästi muodossa 'Pisteytys: X'. Perustele arviointi yksityiskohtaisesti.\n\n"
+        review_prompt += "Pisteytä asteikolla 0–3, jos vastaus on tyhjä anna 0 pistettä, jos vastaus on osittain oikein anna 1-2 pistettä ja täysin oikeasta 3 pistettä. Ilmoita selvästi muodossa 'Pisteytys: X'. Perustele arviointi yksityiskohtaisesti hyvällä suomen kielellä.\n\n"
     
     response = client.chat.completions.create(
         model="gpt-4o",
