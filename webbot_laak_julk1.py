@@ -29,7 +29,7 @@ if "questions" not in st.session_state:
     st.session_state.submitted = False
 
 # **1️⃣ Avainsana ennen tenttiä**
-st.title("🩺 Lääketieteen tenttibotti testaukseen - GPT-4o/PH25")
+st.title("🩺 Lääketieteen tenttibotti testaukseen - GPT-4o/PH25/v2")
 st.write("Tenttibotti on ulkoinen palvelu, se ei tallenna mitään mutta käytön rajaamiseksi on luotu avainsana")
 st.write("Voit luoda tentin niin monta kertaa kuin haluat - tentin jälkeen saat koodin, jolla voit todistaa tehneesi tentin")
 
