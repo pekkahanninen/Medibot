@@ -74,6 +74,7 @@ def generate_questions():
         "Vaadi kliinistä päättelyä ja syy-seuraussuhteiden ymmärtämistä. Keskity kysymyksissä alan ydinsisältöihin." 
         "Esitä vastaukseen vaadittavat taustatiedot kysymyksessä, älä odota esimerkiksi röntgenkuvien lisätarkastelua" 
         "Ole tarkka suomen kielen lääketieteellisessä terminologiassa sekä hyvässä kieliasussa. Käytä selkeää ja luonnollista suomen kieltä. Käytä aina eurooppalaisia mittayksiköitä (esim. kg, mmol/l, °C) ja vältä amerikkalaisia yksiköitä tai vieraskielisiä termejä."
+        "Käytä käypä hoito suosituksiin perustuvia ratkaisuja. Tarkista, että kysymyksissä noudatetaan modernia käytäntöä ja juuri annettuja sääntöjä. Kerro, jos jokin kysymys rikkoo ohjeita"
         "Muotoile vastaus näin:\n\n"
         "1. Kysymys: [Kirjoita kysymysteksti tähän]\n"
         "   A) [Vaihtoehto 1]\n"
