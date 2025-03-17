@@ -64,6 +64,7 @@ def generate_questions():
         "Kysymysten tulee olla vaikeita ja vaatia syvällistä lääketieteellistä osaamista. "
         "Jokaisessa kysymyksessä on oltava potilastapaus – älä esitä kysymyksiä ilman kliinistä kontekstia."  
         "Kuvaa potilas ikä, sukupuoli, oireet, mahdolliset riskitekijät, löydökset ja ensivaiheen tutkimukset." 
+        "Ota kliinisten vaihtoehtojen valinnassa huomioon eri ikäisille potilaille tarvittavat erilaiset hoidot."
         "Tenttikysymysten tulee pakottaa opiskelija tekemään **kliininen päätös tai erotusdiagnostinen valinta**."  
         "Älä käytä triviaalien yksityiskohtien tai harvinaisten oireyhtymien kysymyksiä.\n\n"
 ### **Monivalintakysymysten lisävaatimukset:**  
